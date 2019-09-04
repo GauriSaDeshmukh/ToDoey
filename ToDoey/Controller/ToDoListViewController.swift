@@ -12,6 +12,7 @@ class ToDoListViewController: UITableViewController {
 
     var toDoListArray = [ListModel]()
     let defaults = UserDefaults.standard
+    let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -82,7 +83,6 @@ class ToDoListViewController: UITableViewController {
         
         let action = UIAlertAction.init(title: "Add Item", style: .default) { (action) in
             
-            print(itemTextField.text!)
             
             let listModel = ListModel()
             

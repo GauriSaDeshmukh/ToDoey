@@ -12,8 +12,8 @@
 		0998BDEA231E5A1F00EA1708 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0998BDE8231E5A1F00EA1708 /* Main.storyboard */; };
 		0998BDEC231E5A2100EA1708 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0998BDEB231E5A2100EA1708 /* Assets.xcassets */; };
 		0998BDEF231E5A2100EA1708 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0998BDED231E5A2100EA1708 /* LaunchScreen.storyboard */; };
-		09A2F994231FF53F008E2842 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 09A2F992231FF53F008E2842 /* DataModel.xcdatamodeld */; };
-		09E882DA231EA2F000C0DF7E /* ListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E882D9231EA2F000C0DF7E /* ListModel.swift */; };
+		09A2F997232013AE008E2842 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 09A2F995232013AE008E2842 /* DataModel.xcdatamodeld */; };
+		09A2F99923203C93008E2842 /* CategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A2F99823203C93008E2842 /* CategoryTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,8 +24,8 @@
 		0998BDEB231E5A2100EA1708 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0998BDEE231E5A2100EA1708 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0998BDF0231E5A2100EA1708 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		09A2F993231FF53F008E2842 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
-		09E882D9231EA2F000C0DF7E /* ListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListModel.swift; sourceTree = "<group>"; };
+		09A2F996232013AE008E2842 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		09A2F99823203C93008E2842 /* CategoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				0998BDE4231E5A1F00EA1708 /* AppDelegate.swift */,
+				09A2F99823203C93008E2842 /* CategoryTableViewController.swift */,
 				0998BDE6231E5A1F00EA1708 /* ToDoListViewController.swift */,
 			);
 			path = Controller;
@@ -88,8 +89,7 @@
 		09E882D8231EA28F00C0DF7E /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				09A2F992231FF53F008E2842 /* DataModel.xcdatamodeld */,
-				09E882D9231EA2F000C0DF7E /* ListModel.swift */,
+				09A2F995232013AE008E2842 /* DataModel.xcdatamodeld */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -165,10 +165,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09E882DA231EA2F000C0DF7E /* ListModel.swift in Sources */,
-				09A2F994231FF53F008E2842 /* DataModel.xcdatamodeld in Sources */,
+				09A2F997232013AE008E2842 /* DataModel.xcdatamodeld in Sources */,
 				0998BDE7231E5A1F00EA1708 /* ToDoListViewController.swift in Sources */,
 				0998BDE5231E5A1F00EA1708 /* AppDelegate.swift in Sources */,
+				09A2F99923203C93008E2842 /* CategoryTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,12 +370,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		09A2F992231FF53F008E2842 /* DataModel.xcdatamodeld */ = {
+		09A2F995232013AE008E2842 /* DataModel.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				09A2F993231FF53F008E2842 /* DataModel.xcdatamodel */,
+				09A2F996232013AE008E2842 /* DataModel.xcdatamodel */,
 			);
-			currentVersion = 09A2F993231FF53F008E2842 /* DataModel.xcdatamodel */;
+			currentVersion = 09A2F996232013AE008E2842 /* DataModel.xcdatamodel */;
 			path = DataModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
